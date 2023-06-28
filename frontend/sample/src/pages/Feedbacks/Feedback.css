@@ -1,0 +1,10 @@
+.welcome{
+    color: #000;
+    display: block;
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .welcome{
+        display: none;
+    }
+}
