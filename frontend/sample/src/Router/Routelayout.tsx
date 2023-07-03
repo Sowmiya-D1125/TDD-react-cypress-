@@ -7,6 +7,7 @@ import User from "../pages/User/User";
 import SampleComponents from "../SampleTestCases/SampletestcaseComponents";
 import Feedback from "../pages/Feedbacks/Feedback";
 import ObjectSearch from "../SampleTestCases/ObjectSearch";
+import Receipe from "../pages/Receipes/Receipe";
  const RouteLayout = () => {
     return (
         <Routes>
@@ -19,7 +20,9 @@ import ObjectSearch from "../SampleTestCases/ObjectSearch";
             >
                 <Route path="/user" element={<User />} />
                 <Route path="/product" element={<Products/>}/>
-                <Route path="/feedback" element={<Feedback/>}/>
+                <Route path="/receipe" element={<Receipe/>}/>
+
+                {/* <Route path="/feedback" element={<Feedback/>}/> */}
                 <Route path ="/object" element={ <ObjectSearch/> }/>
             </Route>
         </Routes>
