@@ -2,3 +2,5 @@ mock service- https://www.stackbuilders.com/blog/testing-react-components-with-t
 https://www.youtube.com/watch?v=SMLG9TBh2OI
 
 https://www.csrhymes.com/2022/03/09/mocking-axios-with-jest-and-typescript.html
+https://mswjs.io/docs/basics/request-handler
+https://www.youtube.com/watch?v=oMv2eAGWtZU
